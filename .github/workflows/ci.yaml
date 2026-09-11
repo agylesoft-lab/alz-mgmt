@@ -22,4 +22,4 @@ jobs:
       pull-requests: write
     with:
       root_module_folder_relative_path: '.'
-      terraform_cli_version: ${{ inputs.terraform_cli_version }}
+      terraform_cli_version: '1.16.2'
