@@ -22,6 +22,14 @@ Primary Azure region for the platform resources.
 */
 starter_locations = ["centralindia"]
 
+subscription_ids = {
+  management   = "6f2bffb0-138f-45ba-9869-90ed5ac56cff"
+  connectivity = "6f2bffb0-138f-45ba-9869-90ed5ac56cff"
+  identity     = ""
+  security     = ""
+}
+
+
 
 /*
 --- Custom Replacements ---
@@ -82,9 +90,10 @@ custom_replacements = {
 --- Tags ---
 */
 tags = {
-  deployed_by = "terraform"
-  source      = "Azure Landing Zones Accelerator"
-  environment = "lab"
+  deployed_by   = "terraform"
+  source        = "Azure Landing Zones Accelerator"
+  environment   = "lab"
+  course_module = "module6"
 }
 
 
