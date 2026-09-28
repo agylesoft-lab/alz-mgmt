@@ -370,7 +370,7 @@ hub_virtual_networks = {
       bastion                               = false
       virtual_network_gateway_express_route = false
       virtual_network_gateway_vpn           = false
-      private_dns_zones                     = false
+      private_dns_zones                     = true
       private_dns_resolver                  = false
     }
 
