@@ -27,7 +27,7 @@ custom_replacements = {
     primary_virtual_network_gateway_express_route_enabled                = false
     primary_virtual_network_gateway_express_route_hobo_public_ip_enabled = false
     primary_virtual_network_gateway_vpn_enabled                          = false
-    primary_private_dns_zones_enabled                                    = false
+    primary_private_dns_zones_enabled                                    = true
     primary_private_dns_auto_registration_zone_enabled                   = false
     primary_private_dns_resolver_enabled                                 = false
     primary_bastion_enabled                                              = false
@@ -335,7 +335,7 @@ connectivity_resource_groups = {
     location = "$${starter_location_01}"
 
     settings = {
-      enabled = false
+      enabled = true
     }
   }
 }
@@ -370,7 +370,7 @@ hub_virtual_networks = {
       bastion                               = false
       virtual_network_gateway_express_route = false
       virtual_network_gateway_vpn           = false
-      private_dns_zones                     = false
+      private_dns_zones                     = true
       private_dns_resolver                  = false
     }
 
