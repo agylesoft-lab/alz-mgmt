@@ -217,7 +217,7 @@ management_group_settings = {
   location           = "$${starter_location_01}"
   parent_resource_id = "$${root_parent_management_group_id}"
 
-    policy_default_values = {
+  policy_default_values = {
     ama_change_tracking_data_collection_rule_id = "$${ama_change_tracking_data_collection_rule_id}"
     ama_mdfc_sql_data_collection_rule_id        = "$${ama_mdfc_sql_data_collection_rule_id}"
     ama_vm_insights_data_collection_rule_id     = "$${ama_vm_insights_data_collection_rule_id}"
