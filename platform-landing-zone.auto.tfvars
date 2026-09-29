@@ -21,8 +21,8 @@ custom_replacements = {
     ddos_protection_plan_enabled = false
 
     # Primary connectivity
-    primary_firewall_enabled                                             = false
-    primary_firewall_sku_tier                                            = "Premium"
+    primary_firewall_enabled                                             = true
+    primary_firewall_sku_tier                                            = "Standard"
     primary_firewall_management_ip_enabled                               = false
     primary_virtual_network_gateway_express_route_enabled                = false
     primary_virtual_network_gateway_express_route_hobo_public_ip_enabled = false
@@ -366,7 +366,8 @@ hub_virtual_networks = {
 
     enabled_resources = {
 
-      firewall                              = false
+      firewall = true
+
       bastion                               = false
       virtual_network_gateway_express_route = false
       virtual_network_gateway_vpn           = false
